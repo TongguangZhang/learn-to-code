@@ -1,5 +1,10 @@
-# Learn Node.js
+# Learn to Code
 
-## Resources
+## Technologies
 
-[W3Schools Node.js Tutorial](https://www.w3schools.com/nodejs/)
+* Web Dev
+    * Node.js
+    * React
+
+* Database
+    * MySQL
