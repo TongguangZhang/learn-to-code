@@ -14,9 +14,12 @@ var con = mysql.createConnection({
 con.connect(function (err) {
     if (err) throw err;
     console.log("Connected");
-    var sql = "SELECT name, address FROM customers";
-    con.query(sql, function (err, result, fields) {
+    var name = 'Amy';
+    var address = 'Mountain 21';
+    // ? is a placeholder used to escape values to prevent hacking or db misuse from SQL injections
+    var sql = "SELECT * FROM customers WHERE name = ? OR address = ?";
+    con.query(sql, [name, address], function (err, result, fields) {
         if (err) throw err;
-        console.log(fields);
+        console.log(result);
       });    
 });
