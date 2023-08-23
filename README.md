@@ -3,8 +3,8 @@
 ## Technologies
 
 * Web Dev
-    * Node.js
-    * React
+    - [ ] Node.js
+    - [ ] React
 
 * Database
-    * MySQL
+    - [x] MySQL
