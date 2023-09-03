@@ -40,7 +40,7 @@
 
 -   Python
 
-    -   [x] PyTorch (code in autonomy bootcamp repo)
+    -   [x] PyTorch (more code demonstrated in autonomy bootcamp repo)
 
         -   [x] [Zero to Mastery Tutorial](https://www.learnpytorch.io/)
 
